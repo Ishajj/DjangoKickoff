@@ -1,0 +1,16 @@
+<h1>
+    There are {{ count }} words in your page
+</h1>
+
+<h1>Full TExt:</h1>
+
+{{ fulltext }}
+
+{% for word, counttotal in worddictionary %}
+
+{{ word }}
+<br>
+{{ counttotal }}
+</br>
+
+{% endfor %}
